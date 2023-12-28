@@ -1,8 +1,8 @@
-// function returns 'Hello + name'
+// function returns 'Hello + [NAME}'
 function sayHello(name) {
     return `Hello, ${name}!`;
 }
 
-//prints funtion and also converts the output to all uppercase
+//Prints funtion and converts the output to uppercase
 console.log(sayHello('Louie').toUpperCase());
 
