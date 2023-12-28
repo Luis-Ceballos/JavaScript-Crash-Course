@@ -1,4 +1,4 @@
-// function returns 'Hello + [NAME}'
+// function returns 'Hello + [NAME]'
 function sayHello(name) {
     return `Hello, ${name}!`;
 }
