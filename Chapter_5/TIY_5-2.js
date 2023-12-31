@@ -23,40 +23,44 @@ function numberConversion(n) {
 let validInputs = [0, 1, 2, 3, 4, 5];
 let returnValues = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five'];
 
-let numberConversion2 = function(n) {
-    if (n === n[0]) {
+let numberConversion2 = function(n){
+    if (n === validInputs[0]) {
         return returnValues[0];
-    } else if (n === n[1]) {
+    } else if (n === validInputs[1]) {
         return returnValues[1];
-    } else if (n === n[2]) {
+    } else if (n === validInputs[2]) {
         return returnValues[2];
-    } else if (n === n[3]) {
+    } else if (n === validInputs[3]) {
         return returnValues[3];
-    } else if (n === n[4]) {
-        return returnValues[4];
-    } else if (n === n[5]) {
+    } else if (n === validInputs[4]) {
+        return returnValues [4];
+    } else if (n === validInputs[5]) {
         return returnValues[5];
+    } else {
+        return 'Invalid Input';
     }
 };
+
 
 //----------------------------------------------------------------
 
 const numberConversion3 = n => {
-    if (n === n[0]) {
+    if (n === validInputs[0]) {
         return returnValues[0];
-    } else if (n === n[1]) {
+    } else if (n === validInputs[1]) {
         return returnValues[1];
-    } else if (n === n[2]) {
+    } else if (n === validInputs[2]) {
         return returnValues[2];
-    } else if (n === n[3]) {
+    } else if (n === validInputs[3]) {
         return returnValues[3];
-    } else if (n === n[4]) {
-        return returnValues[4];
-    } else if (n === n[5]) {
+    } else if (n === validInputs[4]) {
+        return returnValues [4];
+    } else if (n === validInputs[5]) {
         return returnValues[5];
+    } else {
+        return 'Invalid Input';
     }
 };
-
 
 
 /* A function with no ­ parameters that prints how many times it’s been
