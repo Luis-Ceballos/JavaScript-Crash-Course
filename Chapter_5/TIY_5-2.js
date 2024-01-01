@@ -23,7 +23,7 @@ function numberConversion(n) {
 let validInputs = [0, 1, 2, 3, 4, 5];
 let returnValues = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five'];
 
-let numberConversion2 = function(n){
+let numberConversion2 = function(n) {
     if (n === validInputs[0]) {
         return returnValues[0];
     } else if (n === validInputs[1]) {
@@ -40,7 +40,6 @@ let numberConversion2 = function(n){
         return 'Invalid Input';
     }
 };
-
 
 //----------------------------------------------------------------
 
@@ -62,18 +61,30 @@ const numberConversion3 = n => {
     }
 };
 
-
-/* A function with no ­ parameters that prints how many times it’s been
+/* A function with no­ parameters that prints how many times it’s been
 called. Hint: define a variable outside of the function to keep track of the
 number of calls, like we did in the “Side Effects” section on page 77. */
 
+let timesCalled = 0;
 
 function functionCounter() {
-
+    ++timesCalled;
+    console.log(`Function has been called ${timesCalled}`);
 }
 
+//---------------------------------------------------------------
 
+let functionCounter2 = function() {
+    ++timesCalled;
+    console.log(`Function has been called ${timesCalled}`);
+};
 
+//---------------------------------------------------------------
+
+const functionCounter3 = () => {
+    ++timesCalled;
+    console.log(`Function has been called ${timesCalled}`);
+}
 
 /* A function that prints the current date and time. Hint: you can get the
 current date and time with new Date(). */
