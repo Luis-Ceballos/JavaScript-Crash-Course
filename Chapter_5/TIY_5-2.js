@@ -84,7 +84,7 @@ let functionCounter2 = function() {
 const functionCounter3 = () => {
     ++timesCalled;
     console.log(`Function has been called ${timesCalled}`);
-}
+};
 
 /* A function that prints the current date and time. Hint: you can get the
 current date and time with new Date(). */
