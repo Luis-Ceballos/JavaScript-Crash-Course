@@ -89,7 +89,18 @@ const functionCounter3 = () => {
 /* A function that prints the current date and time. Hint: you can get the
 current date and time with new Date(). */
 
-
 function dateTime() {
-
+    console.log(Date());
 }
+
+//---------------------------------------------------------------
+
+let dateTime2 = function() {
+    console.log(Date());
+};
+
+//---------------------------------------------------------------
+
+const dateTime3 = () => {
+    console.log(Date());
+};
