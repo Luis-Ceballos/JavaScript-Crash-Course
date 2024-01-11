@@ -3,6 +3,6 @@ function sayHello(name) {
     return `Hello, ${name}!`;
 }
 
-//Prints funtion and converts the output to uppercase
+//Prints function and converts the output to uppercase
 console.log(sayHello('Louie').toUpperCase());
 
