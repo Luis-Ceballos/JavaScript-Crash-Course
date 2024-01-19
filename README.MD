@@ -1,5 +1,3 @@
-![JavaScript Crash Course](img/JSCC.png)
-
 # JavaScript Crash Course
 
 > A Hands-On, Project-Based Introduction to Programming by Nick Morgan
