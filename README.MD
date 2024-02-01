@@ -16,7 +16,7 @@
 - [Chapter 3:](Chapter_3/) Compound Data Types 
 - [Chapter 4:](Chapter_4/) Conditionals and Loops 
 - [Chapter 5:](Chapter_5/) Functions 
-- Chapter 6: Classes
+- [Chapter 6:](Chapter_6/) Classes
 
 ### Part II: Interactive Javascript 
 - Chapter 7: HTML, the DOM, and CSS 
