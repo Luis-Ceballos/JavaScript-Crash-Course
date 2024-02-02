@@ -48,7 +48,7 @@ let player = new Actor(0, 0);
 let follower = new Follower(0, 0, player);
 
 player.move(2, 2)  // Should change player position to x:2 and y:2
-follower.follow() 
+follower.follow()
 
 console.log(player.x, player.y);
 console.log(follower.x, follower.y) // Should also be the same as the players position

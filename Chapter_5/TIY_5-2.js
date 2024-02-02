@@ -23,7 +23,7 @@ function numberConversion(n) {
 let validInputs = [0, 1, 2, 3, 4, 5];
 let returnValues = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five'];
 
-let numberConversion2 = function(n) {
+let numberConversion2 = function (n) {
     if (n === validInputs[0]) {
         return returnValues[0];
     } else if (n === validInputs[1]) {
@@ -33,7 +33,7 @@ let numberConversion2 = function(n) {
     } else if (n === validInputs[3]) {
         return returnValues[3];
     } else if (n === validInputs[4]) {
-        return returnValues [4];
+        return returnValues[4];
     } else if (n === validInputs[5]) {
         return returnValues[5];
     } else {
@@ -53,7 +53,7 @@ const numberConversion3 = n => {
     } else if (n === validInputs[3]) {
         return returnValues[3];
     } else if (n === validInputs[4]) {
-        return returnValues [4];
+        return returnValues[4];
     } else if (n === validInputs[5]) {
         return returnValues[5];
     } else {
@@ -74,7 +74,7 @@ function functionCounter() {
 
 //---------------------------------------------------------------
 
-let functionCounter2 = function() {
+let functionCounter2 = function () {
     ++timesCalled;
     console.log(`Function has been called ${timesCalled}`);
 };
@@ -95,7 +95,7 @@ function dateTime() {
 
 //---------------------------------------------------------------
 
-let dateTime2 = function() {
+let dateTime2 = function () {
     console.log(Date());
 };
 

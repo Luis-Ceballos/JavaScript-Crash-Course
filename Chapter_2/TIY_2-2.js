@@ -8,4 +8,4 @@ input, instead of having to retype it over and over.) */
 let savings = 100;
 savings *= 1.08;
 
-console.log(`Current compound interest is ${savings/100}%`);
+console.log(`Current compound interest is ${savings / 100}%`);
