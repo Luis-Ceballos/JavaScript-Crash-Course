@@ -2,13 +2,13 @@
 
 > A Hands-On, Project-Based Introduction to Programming by Nick Morgan
 
-**Release Date:** January 2024
-
-**ISBN-13:** 9781718502260
-
-**Link:** https://nostarch.com/javascript-crash-course
+| Title                   | Release Date       | ISBN-13       | Link                                         |
+| ----------------------- | ------------------ | ------------- | -------------------------------------------- |
+| JavaScript Crash Course | January 2024       | 9781718502260 | https://nostarch.com/javascript-crash-course |
 
 ## Contents
+
+> **Note:** TIY -> Try It Yourself 
 
 ### Part I: The Language
 - [Chapter 1:](Chapter_1/) Getting Started 
